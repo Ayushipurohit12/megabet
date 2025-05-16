@@ -1,0 +1,2065 @@
+:root {
+  --themePrimaryColor: #000000;
+  --text-warning: #ffb300;
+  --text-secondary: #22222280;
+  --text-secondary-emphasis: #222222;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  max-width: 480px;
+  /* width: 100%; */
+}
+
+/* ================================= */
+/* =====button===*/
+/* ================================= */
+
+.close-button {
+  position: relative;
+  fill: white;
+}
+.test-match-button {
+  width:100%
+}
+.match-button {
+  margin: 2px;
+  width:100%;
+  border-radius: 3.97px;
+  border: 0.93px solid #006db6;
+}
+.test-button {
+  width:100%;
+  border-radius: 3.97px;
+  background: #006db659;
+}
+.test-button p {
+
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.color {
+  border: 0.93px solid #ba5858;
+}
+.background {
+  background: #ba585859;
+}
+
+.logo {
+    margin: 20px 121px;
+    height: 224px;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 0px 1px 12px 0px rgba(255, 179, 0, 1) inset, 0px 3px 115.5px 0px rgba(255, 179, 0, 0.3);
+    margin-bottom: 25px;
+}
+
+.signup-logo {
+  position: relative;
+  left: 65px;
+  height: 200px;
+  width: 200px;
+}
+
+.logo-inner-image {
+  margin-top: 55px;
+  margin-left: 20px;
+}
+.logo-image {
+  width: 116px;
+  height: 47px;
+  margin-left: 8px;
+}
+
+.divider {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  color: #ffffff;
+}
+.card-image {
+  width: 100%;
+  max-width: 120px;
+  margin-bottom: -2px;
+}
+
+.search-image {
+  margin-right: 17px;
+  position: relative;
+  z-index:1;
+}
+
+.profile-image {
+  height: 48px;
+}
+
+.wallet {
+  padding: 2px 0px;
+}
+/* ================================= */
+/* ===== Form =====*/
+/* ================================= */
+.text-warning {
+  color: var(--text-warning) !important;
+}
+
+.bg-warning {
+  background-color: var(--text-warning) !important;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background: var(--themePrimaryColor) !important;
+}
+
+.form-group label.text {
+  font-size: 17px;
+  color: white;
+  position: relative;
+  top: 32px;
+  left: 8px;
+  margin: 0 0 0 7px;
+  background: var(--themePrimaryColor);
+  width: fit-content;
+}
+.form-group input[type="name"].input {
+  margin-top: 20px;
+  padding: 18.9px;
+  font-size: 0.75rem;
+  border: 2px white solid;
+  border-top-color: #fff3cd75;
+  border-radius: 5px;
+  background: var(--themePrimaryColor);
+  color: white;
+}
+.flag-dropdown {
+  border: none !important;
+  top: 20px !important;
+  left: 4px;
+  background: var(--themePrimaryColor) !important;
+  padding: 25px !important;
+}
+
+.form-control {
+  top: 20px;
+  width: 0px !important;
+  background: var(--themePrimaryColor) !important;
+  border: 2px white solid !important;
+  border-top-color: #fff3cd75 !important;
+  border-radius: 5px !important;
+  color: #fff;
+  padding: 25px;
+  padding-left: 267px !important;
+}
+
+.form-group label.password {
+  font-size: 17px;
+  color: white;
+  position: relative;
+  top: 13px;
+  left: 10px;
+  margin: 0 0 0 7px;
+  padding: 0;
+  background: var(--themePrimaryColor);
+  width: fit-content;
+}
+
+.form-group input[type="password"].input {
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 0.75rem;
+  border: 2px white solid;
+  border-top-color: #fff3cd75;
+  border-radius: 5px;
+  background: var(--themePrimaryColor);
+  color: white;
+}
+
+.form-group input[type="text"].input:focus {
+  outline: none;
+}
+
+/* =====login-button==== */
+
+.login-button {
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+}
+.arrow-box {
+  width: 480px;
+  margin: 0 auto;
+}
+.arrow-box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.arrow {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: right;
+  position: relative;
+  bottom: 50px;
+}
+.arrow p {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.arrow04 p {
+  border-top: 16px solid transparent;
+  border-right: 39px solid transparent;
+  border-bottom: 23px solid transparent;
+  border-left: 15px solid var(--text-warning);
+  right: -50px;
+}
+
+.arrow04 p:after {
+  content: "";
+  display: block;
+  width: 91px;
+  height: 36px;
+  background-color: var(--text-warning);
+  position: absolute;
+  top: 43%;
+  margin-top: -15px;
+  left: -105px;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 15px;
+}
+.arrow-box button {
+  z-index: 999;
+  position: relative;
+  right: 80px;
+  bottom: 9px;
+  border: 0px solid;
+  background: transparent;
+  color: #000000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 19.58px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+}
+
+/*====navbar====*/
+.main {
+  background: var(--themePrimaryColor);
+  height: 100%;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.navbar {
+  background: var(--text-secondary-emphasis);
+    box-shadow: 0px 5px #22222280;
+    margin-bottom: 28px;
+    height: 58px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.game-center-line {
+  width: 107px;
+  height: 0px;
+}
+/* =====slider===== */
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px 0px 0px 0px;
+  filter: blur(4px);
+}
+.swiper-slide-active {
+  filter: blur(0px);
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-slide-shadow-right .swiper-slide-shadow-left {
+  background-image: none;
+}
+
+/* =====switch-box===== */
+
+.switch-main-box {
+  width: 100%;
+  padding: 10px;
+}
+
+.switch-box {
+  margin-top: 20px;
+  background-color: var(--themePrimaryColor);
+  border-radius: 20px;
+  border: #222222 solid 3px;
+}
+
+.switch-content {
+  margin: 3px 3px;
+  background-color: #222222;
+  border-radius: 15px;
+}
+
+.switch-heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33.6px;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+  margin: 0;
+}
+
+/* ====gaming==== */
+.sport-box {
+  border-radius: 6.82px;
+  border: 2px solid;
+  margin: 6px;
+  background-color: var(--text-secondary-emphasis);
+  cursor: pointer;
+}
+
+.sport-box:hover {
+  border: #ffb300 solid 2px;
+}
+.game-soccer {
+  padding: 4px 17px;
+}
+
+.sport-box h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 1px 15px;
+}
+.line {
+  border-left: 1.36px solid var(--text-secondary-emphasis);
+  height: 26px;
+}
+
+/* ===filter==== */
+.filter {
+  padding: 10px;
+}
+
+.filter-image {
+  height: 16px;
+}
+
+.filter-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  text-align: center;
+  color: #a6a6a6;
+}
+
+.filter-line {
+  border: 1.5px solid #222222;
+  margin: 0;
+}
+
+/* ====search-icon===== */
+
+.search-icon {
+  margin-right: 10px;
+}
+
+/* ====test-match=== */
+
+.event {
+  border-radius: 15px;
+  border: 2px solid #222222;
+  padding: 10px 8px;
+  margin: 0px 10px;
+}
+
+.event-content {
+  padding: 8px 7px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  box-shadow: -1px 5px #222222;
+}
+
+.event-heading h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+
+.event-heading p {
+  width: 63px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  line-height: 15.6px;
+  color: #a6a6a6;
+  margin-bottom: 11px;
+}
+
+.event-left-side {
+  border-radius: 9.46px 0px 0px 9.46px;
+  border: 0.95px solid #000000;
+}
+
+.date-of-match {
+  margin: 1.4px 0px;
+  border-radius: 7.57px 0px 0px 7.57px;
+  background: #000000;
+  margin-left: 1px;
+}
+
+.date-of-match h3 {
+  padding: 2px 7px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.2px;
+  text-align: center;
+  color: #ffb300;
+  margin: 0;
+}
+
+/* =====bottom-navbar */
+
+.bottom-navbar {
+  width: 100%;
+  max-width: 480px;
+  padding: 10px 0px;
+  background: #222222;
+  position: fixed;
+    top: 92%;
+    left: 0;
+  z-index: 999;
+}
+
+.bottom-navbar button {
+  border: 2px solid #ffb300;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #ffb300;
+}
+.bottom-image {
+  background: #ffb300;
+  position: relative;
+  bottom: 3px;
+}
+
+.margin-left {
+  margin-left: 30px;
+}
+
+.scroll {
+  /* overflow-y: scroll; */
+}
+::-webkit-scrollbar {
+  opacity: 0;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* ====loginhome===== */
+.navbar-height {
+  height: 117px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar-height h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: var(--text-warning);
+  margin-top: 15px;
+}
+
+.deposit-link {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20.4px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  background: #222222;
+}
+
+.dropdown-item {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  line-height: 20.4px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dropdown-item:hover {
+  color: #ffb300;
+  background: none;
+}
+
+.dropdown-line {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  color: white;
+}
+
+.menu-image {
+  margin-right: 10px;
+}
+
+.deposit {
+  margin: 13px 0px;
+  border-radius: 4px;
+  background: #000000;
+  display: flex;
+  padding: 0px 5px;
+}
+
+.deposit-line {
+  border-left: 1.36px solid var(--text-secondary-emphasis);
+  height: 20px;
+}
+
+.money {
+  margin: 12px 9px;
+  padding: 5px;
+  border-radius: 4px;
+  background: #000000;
+}
+.money span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+  color: #2daa7a;
+  padding: 3px 8px;
+}
+
+.inner-event-box {
+  position: relative;
+    bottom: 25px;
+    left: 73px;
+    padding: 1px 4px;
+    border-radius: 2px;
+    background: #000000;
+}
+
+.inner-event-box h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* ====Bonuscasino====== */
+
+.heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 1px 8px;
+  margin: 0;
+}
+.bonuse-center-line {
+  width: 62px;
+  height: 0;
+  position: relative;
+  bottom: 14px;
+  left: 5px;
+}
+
+.casino-bonuses {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: transparent;
+  margin-bottom: 20px;
+
+}
+
+.casino-bonuses:hover {
+  border: #222222 solid 1px;
+  color: var(--text-warning);
+}
+
+.casino {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px;
+  background: #222222;
+  color: #fff;
+}
+
+.casino img,
+svg {
+  stroke: #006db6;
+}
+
+.casino:hover {
+  color: var(--text-warning);
+}
+
+.casino p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  margin-top: 17px;
+  margin-left: 6px;
+}
+
+.active-bonus {
+  margin: 8px 10px;
+  position: relative;
+  bottom: 20px;
+}
+
+.active-bonus p {
+  width: 131px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.active-bonus span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffb300;
+}
+
+.deposit-bonus {
+  margin: 0px 10px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  position: relative;
+  bottom: 35px;
+  padding-bottom: 10px;
+}
+
+.deposit-bonus img {
+  width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.deposit-rolling p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  color: #ffffff;
+  margin: 2px 5px;
+}
+
+.deposit-rolling span {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: center;
+  color: #2daa7a;
+}
+
+.rolling-content {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: left;
+  color: #a6a6a6;
+  margin: 4px 5px;
+}
+
+.create {
+  margin-top: 20px;
+  margin-left: 4px;
+}
+.create p {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: left;
+  color: #ffffff;
+  /* margin: 15px 5px; */
+}
+
+.create span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  /* margin: 15px 13px; */
+}
+
+.deposit-amount {
+  margin-left: 4px;
+}
+
+.deposit-amount p {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.deposit-amount span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wagering {
+  margin: -10px 0px;
+  padding: 20px;
+  font-size: 0.75rem;
+  border: 2px white solid;
+  border-top-color: #fff3cd75;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  color: white;
+}
+
+.label-wagering {
+  font-size: 17px;
+  color: white;
+  position: relative;
+  /* top: 32px; */
+  left: 23px;
+  margin: 0 0 0 7px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  width: fit-content;
+}
+
+.wagering p {
+  font-size: 17px;
+  color: white;
+  position: relative;
+  bottom: 30px;
+  left: 0px;
+  margin: 0 0 0 7px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  width: fit-content;
+}
+
+.wagering-content {
+  position: relative;
+  top: 30px;
+}
+.wagering-total p {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: left;
+    color: #a6a6a6;
+    background: none;
+
+}
+.total {
+  position: relative;
+  bottom: 26px;
+  left: 7px !important;
+}
+.wagering-total span {
+  position: relative;
+  bottom: 26px;
+  left: 17px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bonus-history {
+  height: 508px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  position: relative;
+  bottom: 15px;
+}
+
+.bonus-content {
+  padding: 40px 24px;
+}
+
+.bonus-content p {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.line-bonus {
+  width: 0px;
+  border: 1px solid #fff;
+  margin: 0;
+}
+
+.bonus-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 3px;
+  padding: 10px 20px;
+}
+
+.bonus-button {
+  text-align: end;
+  padding: 5px 16px;
+  
+}
+
+.bonus-button button {
+  padding: 7px 7px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  background: #c8030c;
+  border:0px solid;
+  border-radius: 5px;
+  margin-bottom: 71px;
+}
+
+.rolling p {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.rolling span {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bonus-history hr {
+  border: 1px solid #fff;
+  margin: 0;
+}
+
+.details {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ======deposit===== */
+
+.deposit-content {
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+}
+
+.remove-button {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #c8030c;
+  background: none;
+}
+
+.remove-button span {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  color: #c8030c;
+}
+
+.remove-button img {
+  width: 20%;
+}
+
+.claim-button {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #2daa7a;
+  background: none;
+}
+
+.claim-button img {
+  width: 25%;
+}
+
+.claim-button span {
+
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  color: #2daa7a;
+}
+
+.null-button {
+  padding:20px;
+  border-radius: 5px;
+  border: 1px solid #ffb300;
+  background: none;
+}
+
+.null-button img {
+  color: #ffffff;
+  width:10%;
+}
+
+.null-button span {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer button {
+  width: 100%;
+  max-width: 460px;
+  padding: 70px 0px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ffb300;
+    background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  
+}
+
+.footer button h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer span {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.footer-content {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-content img {
+  margin: 5px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.main-swiper .swiper-slide {
+  font-size: 18px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  filter: none;
+  width: 80px !important;
+}
+
+.bonus-casino-footer p {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  padding: 15px;
+  color: #a6a6a6;
+  margin-bottom: 60px;
+}
+
+.amount p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 10px;
+}
+
+.amount span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+}
+
+.amount-activate p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  margin: 5px 10px;
+}
+
+.amount-activate span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+}
+
+.form-group input[type="amount"].input {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px white solid;
+  border-top-color: #fff3cd75;
+  border-radius: 8px;
+  background: transparent;
+  color: #ffffff;
+}
+
+.form-group label.amount {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  top: 32px;
+  left: 8px;
+  margin: 0 0 0 7px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  width: fit-content;
+}
+
+.submit-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ffb300;
+  background: #ffb300;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+/* ======withdrawal====== */
+
+.withdrawal-center-line {
+  width: 82px;
+  height: 0;
+  position: relative;
+  bottom: 14px;
+  left: 5px;
+}
+
+.withdrawal-upi {
+  padding: 0px 10px;
+}
+
+.withdrawal-upi p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #ffffff;
+}
+
+.upi-account span {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffb300;
+}
+
+.withdrawal-content {
+  padding: 0px 10px;
+  margin: 10px 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+}
+
+.withdrawal-icon {
+  width:max-content;
+  position: relative;
+    bottom: 41px;
+    left: 183px;
+}
+
+.withdrawal-table {
+  padding: 23px 38px;
+  border-right: 1px solid #ffffff;
+  width: 35%;
+}
+.withdrawal-button {
+ 
+ 
+  position: relative;
+}
+
+.withdrawal-button button { 
+  border-radius: 5px;
+  background: #c8030c;
+  border: 0px solid;
+  padding: 8px 10px;
+  color: #ffffff;
+}
+
+.withdrawal-button p {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: right;
+}
+.withdrawal-button-color button{
+  border-radius: 5px !important;
+  background: #2daa7a !important;
+  border: 0px solid;
+  padding: 8px 10px;
+  color: #ffffff;
+}
+.withdrawal-table-name p {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+}
+.withdrawal-table-name span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+}
+.withdrawal-table-main {
+  border-bottom: 1px solid #ffffff;
+}
+.box {
+  width: 50% !important;
+}
+
+.main-upi-id {
+  padding: 20px 9px;
+}
+
+.main-upi-id p {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  color: #ffffff;
+}
+
+.main-upi-id span {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #ffffff;
+}
+
+.upi-image {
+  padding: 5px 20px;
+  position: relative;
+  top: 15px;
+}
+.dropdown-item p {
+  margin: 0;
+}
+.dropdown-item span {
+  margin-left: 136px;
+}
+
+.account-statement-main {
+  padding: 10px 10px;
+}
+.account-statement-main-table{
+overflow: scroll;
+width: 100%;
+}
+
+.account-statement-center-line {
+  width: 134px;
+  height: 0;
+  position: relative;
+  bottom: 14px;
+  left: 5px;
+}
+
+.account-statement-content {
+  border-radius: 5px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  margin: 15px 0px;
+  padding: 20px 15px;
+}
+
+.account-statement-content-date p {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  margin: 8px 2px;
+  border-bottom: 2px solid #ffff;
+  padding: 0px 13px;
+}
+.account-statement-content-date span {
+  font-family: "Lato", sans-serif;
+  font-size: 27px;
+  color: #ffffff;
+  margin: 6px 0px;
+}
+
+.account-statement-search-box {
+  background: none;
+  border: 1px solid #ffb300;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  color: #ffb300;
+  padding-right: 35px;
+}
+.account-statement-search {
+  background: none;
+  border: 1px solid #ffb300;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px 14px;
+  color: #ffb300;
+}
+
+::placeholder {
+  color: #8c8c8c;
+  font-family: "Lato", sans-serif !important;
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 19.2px;
+}
+
+.account-statement-search-icon {
+  position: relative;
+  right: 45px;
+}
+
+.account-statement-table {
+  margin-bottom: 20pxn;
+  border-radius: 5px;
+  background-color: #222222;
+  width: 100%;
+}
+
+.account-statement-table th {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffffff;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ffff;
+}
+
+td {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.account-statement-table {
+  border-radius: 5px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  margin: 15px 0px;
+  padding: 20px 15px;
+  overflow: scroll;
+}
+
+.table-border {
+  border-right: 1px solid #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+
+/* ========my-market-table========= */
+.my-market-main {
+  padding: 10px 10px;
+}
+
+.table-date {
+  border-right: 1px solid #ffffff;
+}
+.table-color {
+  color: #ffb300 !important;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  padding: 18px 5px;
+}
+/* =========slots========== */
+
+.slots {
+  padding: 16px 6px;
+}
+
+.slots-frame {
+  padding: 20px 5px;
+}
+
+.slots-frame p {
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.slots-icon {
+  height: 35px;
+}
+
+.slots-content {
+  border-radius: 5px;
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  padding: 10px 10px;
+  width:100%;
+}
+
+.slots-content p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 10px;
+}
+.slot-image{
+  width:100%;
+}
+
+.slot-image img{
+width:100%;
+}
+
+/* ======test-match====== */
+
+.test-match-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.w-10 {
+  width: 100px !important;
+}
+
+.w-11 {
+  width: 107px !important;
+}
+
+.test-match {
+  padding: 0px 10px;
+}
+
+.test-match-content p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0px 10px;
+}
+
+.test-match-date {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffb300;
+}
+
+.test-match-navbar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 11px 0px;
+  margin: 0;
+}
+
+.test-center-line {
+  width: 82px;
+  height: 0;
+  position: relative;
+  bottom: 8px;
+  right: 4px;
+}
+
+.nav-item:hover {
+  color: #ffb300 !important;
+  border-bottom: 3px solid #ffb300;
+}
+
+.navbar-color {
+  color: #ffb300 !important;
+  border-bottom: 3px solid #ffb300 !important;
+}
+
+.nav-item {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  background: none;
+  color: #ffffff;
+  border: 3px solid transparent;
+}
+
+.test-match-min {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffffff;
+  padding: 9px 5px;
+}
+
+.inner-side {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+.inner-side-color {
+  color: #2daa7a;
+}
+
+.test-match-center-line {
+  border: 0.5px solid #a6a6a6;
+  width: 310px;
+  position: relative;
+  left: 15px;
+  margin: 0;
+}
+.test-match-ODD {
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 0px 3px 0px;
+}
+.test-match-btn {
+  width: 73px;
+  height: 41.3px;
+  position: relative;
+  left: 1.5px;
+  top: 1px;
+  border-radius: 3.97px;
+  opacity: 0px;
+  background: #006db659;
+}
+
+.test-match-button-main {
+  width: 77.39px;
+  height: 47px;
+  margin: 2px;
+  padding: 0.93px 0px 0px 0px;
+  border-radius: 3.97px;
+  border: 0.93px 0px 0px 0px;
+  border: 0.93px solid #006db6;
+}
+
+.test-match-btn p {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.81px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  height: 17px;
+}
+
+.font {
+  font-size: 14px !important;
+}
+.text-match-button-main-color {
+  width: 77.39px;
+  height: 47px;
+  margin: 2px;
+  padding: 0.93px 0px 0px 0px;
+  border-radius: 3.97px;
+  border: 0.93px 0px 0px 0px;
+  border: 1px solid #b74c4c94;
+}
+
+.test-match-button-background {
+  width: 72.39px;
+  height: 42px;
+  margin: 1px 1.6px;
+  border-radius: 3.97px;
+  border: 0.93px;
+  background: #b74c4c94;
+}
+
+.test-match-button-background p {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.81px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  height: 17px;
+}
+.test-match-btn span {
+  background: #000000f2;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  left: 20px;
+  padding: 8px 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.rectangle {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 4.5px;
+  transform: rotate(50deg);
+  position: relative;
+  top: 3px;
+  margin: 0;
+}
+
+.rectangle hr {
+  border: 1px solid #000000;
+  transform: rotate(130deg);
+  margin: 0;
+  position: relative;
+  top: 9px;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.d-content {
+  margin: 0;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  width: 25%;
+  text-align: center;
+}
+
+.d-button p {
+  border-radius: 4px;
+  margin: 2px;
+  border: 1px solid #a6a6a6;
+  width: 25%;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #a6a6a6;
+}
+
+.d-button-main {
+  margin-top: 10px;
+}
+
+.d-button-main p {
+  margin-bottom: 0;
+  border: 1px solid #a6a6a6;
+  width: 25%;
+  height: 28px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #a6a6a6;
+  padding: 3px;
+  margin-left: 3px;
+  border-radius: 4px;
+}
+.d-button-main button {
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #ffff;
+  color: #ffb300;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin-right: 7px;
+}
+
+.cancel-button {
+  padding: 3px 20px !important;
+  color: #c8030c;
+}
+
+.clear-image {
+  padding-right: 2px;
+}
+
+.betting-button {
+  width:100%;
+  padding: 3px 20px !important;
+  border-radius: 5px;
+  border: 1px solid #2daa7a;
+  background: none;
+  color: #2daa7a;
+}
+
+.betting-button img{
+  width:25%;
+}
+.casino-main {
+  padding: 0px 10px;
+}
+
+.casino-image-main {
+  padding-bottom: 20px;
+}
+
+.casino-content {
+  background: linear-gradient(180deg, #222222 0%, #111111 100%);
+  padding: 15px 10px;
+  border-radius: 8px;
+}
+
+.casino-providers {
+  color: #ffffff;
+  border: 1px solid #ffffffa3;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.casino-box {
+  margin: 10px 0px;
+  padding: 9px 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.casino-box h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+
+.casino-boxed {
+  width: 80px;
+  font-size: 13px !important;
+}
+
+.all-providers {
+  padding: 15px 10px;
+}
+
+.providers-closeButton {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.providers-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.providers-btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.providers-btn button {
+  padding: 10px 22px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background: none;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+}
+
+.providers-btn button:hover {
+  color: #ffb300;
+  border-color: #ffb300;
+}
+
+.providers-content {
+  padding: 10px 0px;
+}
+
+.test-matches {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 24px;
+  text-align: left;
+  color: #a6a6a6;
+  margin: 0;
+}
+
+.collapse-right {
+  transform: translate(0, -50%);
+}
+
+.collapse-right input {
+  background-color: #222222;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    right: 14px;
+    bottom: -14px;
+    display: flex;
+}
+
+.collapse-left input {
+  background-color: #222222;
+  border: 0px;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 7px;
+}
+
+.collapse-left {
+  position: absolute;
+  top: 492px;
+  right: 622px;
+  transform: translate(0, -50%);
+}
+.position {
+  position: absolute;
+  top: 539px;
+  right: 622px;
+}
+.footer-sub-heading {
+  margin-left: 11px;
+  font-family: "Lato", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 19.2px !important;
+  color: #ffffff !important;
+}
+
+.top-game-list {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.top-game-list hr {
+  margin: 0;
+}
+
+.text-game-list p {
+  margin: 0;
+}
+
+.view {
+  text-decoration: none;
+  padding: 6px 4px;
+  margin: 0;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.casino-game-box {
+  position: relative;
+  right: 5px;
+  margin: 5px 0px;
+  border-radius: 8px;
+}
+
+.casino-game-box h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.select-account-main {
+  margin: 13px 8px;
+  padding: 6px 10px 6px 10px;
+  border-radius: 4px;
+  background: #000000;
+}
+
+.select-heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: xx-large;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding: 30px;
+}
+.react-responsive-modal-modal {
+  background-color: var(--themePrimaryColor) !important;
+  display: block !important;
+  max-width: 400px !important;
+}
+.casino img,
+svg {
+  stroke: #ffffff;
+}
+.form-check-input:checked[type="radio"] {
+  --bs-form-check-bg-image: var(--themePrimaryColor);
+}
+.form-check-input {
+  --bs-form-check-bg: var(--themePrimaryColor);
+}
+
+.form-check-input:checked {
+  background-color: #ffb300;
+  border-color: #ffb300;
+}
+
+.select-account-content {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 15px;
+}
+
+.details-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.details-list {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.details-list spam {
+  padding-left: 10px !important;
+}
+
+.select-account-button {
+  padding: 10px;
+  border-radius: 5px;
+  background: #ffb300;
+  border: 0px solid;
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+}
+
+.providers-main {
+  
+  margin: 13px 8px;
+  padding: 6px 10px 6px 10px;
+  border-radius: 4px;
+  background: #000000;
+  overflow: hidden;
+}
+.react-responsive-modal-container {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden !important;
+}
+
+.mySwiper .swiper-pagination {
+  width: 80px !important;
+  text-align: center !important;
+  background: #0000008a !important;
+  border-radius: 10px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  line-height: 0 !important;
+  padding: 5px 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1) !important;
+  background:var(--text-warning) !important;
+}
